@@ -1,0 +1,105 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.24.2.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: rain 320951152@qq.com, faze, LIC=WHYH9-4LQBZ-2ZWW4-FS22T-LY2SC-IZVJQ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
+Toolchain Path:  D:\Tool\Keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.24.1
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      UL2CM3.DLL V1.160.3.0
+Dialog DLL:      TARMSTM.DLL V1.66.0.0
+ 
+<h2>Project:</h2>
+D:\Code\balanceCar\FreeRTOS\Demo\CORTEX_STM32F103_Keil\RTOSDemo.uvprojx
+Project File Date:  07/21/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Tool\Keil5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+assembling cortexm3_macro_rvds.s...
+cortexm3_macro_rvds.s: error: A1023E: File "..\Common\drivers\ST\STM32F10xFWLib\src\cortexm3_macro_rvds.s" could not be opened: No such file or directory
+assembling STM32F10x.s...
+compiling stm32f10x_gpio.c...
+compiling lcd.c...
+"no source": Error:  #5: cannot open source input file "..\Common\drivers\ST\STM32F10xFWLib\src\lcd.c": No such file or directory
+..\Common\drivers\ST\STM32F10xFWLib\src\lcd.c: 0 warnings, 1 error
+compiling stm32f10x_lib.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_nvic.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_systick.c...
+compiling ParTest.c...
+ParTest\ParTest.c(35): error:  #5: cannot open source input file "partest.h": No such file or directory
+  #include "partest.h"
+ParTest\ParTest.c: 0 warnings, 1 error
+compiling stm32f10x_tim.c...
+compiling serial.c...
+serial\serial.c(41): error:  #5: cannot open source input file "serial.h": No such file or directory
+  #include "serial.h"
+serial\serial.c: 0 warnings, 1 error
+compiling timertest.c...
+compiling spi_flash.c...
+compiling main.c...
+main.c(74): error:  #5: cannot open source input file "BlockQ.h": No such file or directory
+  #include "BlockQ.h"
+main.c: 0 warnings, 1 error
+compiling blocktim.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\blocktim.c": No such file or directory
+..\Common\Minimal\blocktim.c: 0 warnings, 1 error
+compiling comtest.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\comtest.c": No such file or directory
+..\Common\Minimal\comtest.c: 0 warnings, 1 error
+compiling semtest.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\semtest.c": No such file or directory
+..\Common\Minimal\semtest.c: 0 warnings, 1 error
+compiling BlockQ.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\BlockQ.c": No such file or directory
+..\Common\Minimal\BlockQ.c: 0 warnings, 1 error
+compiling integer.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\integer.c": No such file or directory
+..\Common\Minimal\integer.c: 0 warnings, 1 error
+compiling death.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\death.c": No such file or directory
+..\Common\Minimal\death.c: 0 warnings, 1 error
+compiling flash.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\flash.c": No such file or directory
+..\Common\Minimal\flash.c: 0 warnings, 1 error
+compiling PollQ.c...
+"no source": Error:  #5: cannot open source input file "..\Common\Minimal\PollQ.c": No such file or directory
+..\Common\Minimal\PollQ.c: 0 warnings, 1 error
+compiling list.c...
+compiling heap_2.c...
+compiling tasks.c...
+compiling queue.c...
+compiling port.c...
+".\RTOSDemo.axf" - 4 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  D:\Tool\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Target not created.
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

@@ -1,0 +1,12 @@
+.\partest.o: ParTest\ParTest.c
+.\partest.o: ..\..\Source\include\FreeRTOS.h
+.\partest.o: D:\Tool\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\partest.o: D:\Tool\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\partest.o: ..\CORTEX_STM32F103_Keil\FreeRTOSConfig.h
+.\partest.o: ..\..\Source\include\projdefs.h
+.\partest.o: ..\..\Source\include\portable.h
+.\partest.o: ..\..\Source\include\deprecated_definitions.h
+.\partest.o: ..\..\Source\include\../../Source/portable/RVDS/ARM_CM3/portmacro.h
+.\partest.o: ..\..\Source\include\mpu_wrappers.h
+.\partest.o: ..\..\Source\include\task.h
+.\partest.o: ..\..\Source\include\list.h

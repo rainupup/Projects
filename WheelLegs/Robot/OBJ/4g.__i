@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE\MPU6050\eMPL -I ..\HARDWARE -I ..\HARDWARE\mpu6050 -I ..\SYSTEM\SysTick -I D:\Keil_v5\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include -I ..\APPLICATION -I ..\FreeRTOS\include -I ..\FreeRTOS\portable\RVDS\ARM_CM3 -I ..\HARDWARE\mpu_exti -I ..\HARDWARE\oled
+-I.\RTE\_WheelLegs
+-ID:\Tool\Keil5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-ID:\Tool\Keil5\ARM\CMSIS\Include
+-D__UVISION_VERSION="524" -DSTM32F10X_MD -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER
+-o ..\obj\4g.o --omf_browse ..\obj\4g.crf --depend ..\obj\4g.d "HARDWARE\4G.c"

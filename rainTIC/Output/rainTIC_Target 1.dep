@@ -1,0 +1,1768 @@
+Dependencies for Project 'rainTIC', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Libraries\CMSIS\startup\startup_gd32f10x_hd.s)(0x6545E803)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "GD32F10X_MD SETA 1" --pd "USE_STDPERIPH_DRIVER SETA 1"--list .\listings\startup_gd32f10x_hd.lst --xref -o .\output\startup_gd32f10x_hd.o --depend .\output\startup_gd32f10x_hd.d)
+F (.\Libraries\FWLIB\Source\gd32f10x_adc.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_adc.o --omf_browse .\output\gd32f10x_adc.crf --depend .\output\gd32f10x_adc.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_bkp.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_bkp.o --omf_browse .\output\gd32f10x_bkp.crf --depend .\output\gd32f10x_bkp.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_can.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_can.o --omf_browse .\output\gd32f10x_can.crf --depend .\output\gd32f10x_can.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_crc.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_crc.o --omf_browse .\output\gd32f10x_crc.crf --depend .\output\gd32f10x_crc.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_dac.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_dac.o --omf_browse .\output\gd32f10x_dac.crf --depend .\output\gd32f10x_dac.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_dbg.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_dbg.o --omf_browse .\output\gd32f10x_dbg.crf --depend .\output\gd32f10x_dbg.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_dma.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_dma.o --omf_browse .\output\gd32f10x_dma.crf --depend .\output\gd32f10x_dma.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_enet.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_enet.o --omf_browse .\output\gd32f10x_enet.crf --depend .\output\gd32f10x_enet.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (.\Libraries\FWLIB\Source\gd32f10x_exmc.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_exmc.o --omf_browse .\output\gd32f10x_exmc.crf --depend .\output\gd32f10x_exmc.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_exti.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_exti.o --omf_browse .\output\gd32f10x_exti.crf --depend .\output\gd32f10x_exti.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_fmc.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_fmc.o --omf_browse .\output\gd32f10x_fmc.crf --depend .\output\gd32f10x_fmc.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_fwdgt.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_fwdgt.o --omf_browse .\output\gd32f10x_fwdgt.crf --depend .\output\gd32f10x_fwdgt.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_gpio.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_gpio.o --omf_browse .\output\gd32f10x_gpio.crf --depend .\output\gd32f10x_gpio.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_i2c.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_i2c.o --omf_browse .\output\gd32f10x_i2c.crf --depend .\output\gd32f10x_i2c.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_misc.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_misc.o --omf_browse .\output\gd32f10x_misc.crf --depend .\output\gd32f10x_misc.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+F (.\Libraries\FWLIB\Source\gd32f10x_pmu.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_pmu.o --omf_browse .\output\gd32f10x_pmu.crf --depend .\output\gd32f10x_pmu.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_rcu.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_rcu.o --omf_browse .\output\gd32f10x_rcu.crf --depend .\output\gd32f10x_rcu.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_rtc.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_rtc.o --omf_browse .\output\gd32f10x_rtc.crf --depend .\output\gd32f10x_rtc.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_sdio.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_sdio.o --omf_browse .\output\gd32f10x_sdio.crf --depend .\output\gd32f10x_sdio.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_spi.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_spi.o --omf_browse .\output\gd32f10x_spi.crf --depend .\output\gd32f10x_spi.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_timer.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_timer.o --omf_browse .\output\gd32f10x_timer.crf --depend .\output\gd32f10x_timer.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_usart.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_usart.o --omf_browse .\output\gd32f10x_usart.crf --depend .\output\gd32f10x_usart.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\FWLIB\Source\gd32f10x_wwdgt.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_wwdgt.o --omf_browse .\output\gd32f10x_wwdgt.crf --depend .\output\gd32f10x_wwdgt.d)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\Libraries\CMSIS\system_gd32f10x.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\system_gd32f10x.o --omf_browse .\output\system_gd32f10x.crf --depend .\output\system_gd32f10x.d)
+I (Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+F (.\USER\main.c)(0x6545FCA3)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (USER\config.h)(0x6545FAE3)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (USER\systick.h)(0x6197C21A)
+I (.\HARDWARE\GPIO.h)(0x6545FC2B)
+I (.\USER\config.h)(0x6545FAE3)
+I (.\HARDWARE\TIM.h)(0x6544B215)
+I (.\HARDWARE\gd32f103c_lcd_eval.h)(0x6545FBA4)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\HARDWARE\MLX90640\headers\MLX90640_API.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640_I2C_Driver.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640.h)(0x6545F555)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (.\USB\msc_core.h)(0x6197C21A)
+I (.\HARDWARE\ADCKey.h)(0x6545FB25)
+I (.\HARDWARE\XT25F128.h)(0x6545FB25)
+I (D:\Tool\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FATFS\diskio.h)(0x6197C21A)
+I (.\FATFS\integer.h)(0x6197C21A)
+I (.\FATFS\ff.h)(0x6197C21A)
+I (.\FATFS\ffconf.h)(0x6197C21A)
+I (.\HARDWARE\bmp.h)(0x6545C318)
+F (.\USER\gd32f10x_it.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f10x_it.o --omf_browse .\output\gd32f10x_it.crf --depend .\output\gd32f10x_it.d)
+I (USER\gd32f10x_it.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_int.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_pwr.h)(0x6197C21A)
+F (.\USER\systick.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\systick.o --omf_browse .\output\systick.crf --depend .\output\systick.d)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (USER\systick.h)(0x6197C21A)
+F (.\USER\config.h)(0x6545FAE3)()
+F (.\HARDWARE\XT25F128.c)(0x6545E79D)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\xt25f128.o --omf_browse .\output\xt25f128.crf --depend .\output\xt25f128.d)
+I (HARDWARE\XT25F128.h)(0x6545FB25)
+I (.\USER\CONFIG.h)(0x6545FAE3)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USER\systick.h)(0x6197C21A)
+I (.\HARDWARE\GPIO.h)(0x6545FC2B)
+I (.\HARDWARE\TIM.h)(0x6544B215)
+I (.\HARDWARE\gd32f103c_lcd_eval.h)(0x6545FBA4)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\HARDWARE\MLX90640\headers\MLX90640_API.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640_I2C_Driver.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640.h)(0x6545F555)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (.\USB\msc_core.h)(0x6197C21A)
+I (.\HARDWARE\ADCKey.h)(0x6545FB25)
+I (.\HARDWARE\XT25F128.h)(0x6545FB25)
+I (D:\Tool\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FATFS\diskio.h)(0x6197C21A)
+I (.\FATFS\integer.h)(0x6197C21A)
+I (.\FATFS\ff.h)(0x6197C21A)
+I (.\FATFS\ffconf.h)(0x6197C21A)
+I (.\HARDWARE\bmp.h)(0x6545C318)
+F (.\HARDWARE\ADCKey.c)(0x6545FC88)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\adckey.o --omf_browse .\output\adckey.crf --depend .\output\adckey.d)
+I (HARDWARE\ADCKey.h)(0x6545FB25)
+I (.\USER\CONFIG.h)(0x6545FAE3)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USER\systick.h)(0x6197C21A)
+I (.\HARDWARE\GPIO.h)(0x6545FC2B)
+I (.\HARDWARE\TIM.h)(0x6544B215)
+I (.\HARDWARE\gd32f103c_lcd_eval.h)(0x6545FBA4)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\HARDWARE\MLX90640\headers\MLX90640_API.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640_I2C_Driver.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640.h)(0x6545F555)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (.\USB\msc_core.h)(0x6197C21A)
+I (.\HARDWARE\ADCKey.h)(0x6545FB25)
+I (.\HARDWARE\XT25F128.h)(0x6545FB25)
+I (D:\Tool\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FATFS\diskio.h)(0x6197C21A)
+I (.\FATFS\integer.h)(0x6197C21A)
+I (.\FATFS\ff.h)(0x6197C21A)
+I (.\FATFS\ffconf.h)(0x6197C21A)
+I (.\HARDWARE\bmp.h)(0x6545C318)
+F (.\HARDWARE\MLX90640\functions\MLX90640.c)(0x6545FC5C)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\mlx90640.o --omf_browse .\output\mlx90640.crf --depend .\output\mlx90640.d)
+I (.\HARDWARE\MLX90640\headers\MLX90640.h)(0x6545F555)
+I (.\USER\config.h)(0x6545FAE3)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USER\systick.h)(0x6197C21A)
+I (.\HARDWARE\GPIO.h)(0x6545FC2B)
+I (.\HARDWARE\TIM.h)(0x6544B215)
+I (.\HARDWARE\gd32f103c_lcd_eval.h)(0x6545FBA4)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\HARDWARE\MLX90640\headers\MLX90640_API.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640_I2C_Driver.h)(0x6544AE40)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (.\USB\msc_core.h)(0x6197C21A)
+I (.\HARDWARE\ADCKey.h)(0x6545FB25)
+I (.\HARDWARE\XT25F128.h)(0x6545FB25)
+I (D:\Tool\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FATFS\diskio.h)(0x6197C21A)
+I (.\FATFS\integer.h)(0x6197C21A)
+I (.\FATFS\ff.h)(0x6197C21A)
+I (.\FATFS\ffconf.h)(0x6197C21A)
+I (.\HARDWARE\bmp.h)(0x6545C318)
+F (.\HARDWARE\MLX90640\functions\MLX90640_API.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\mlx90640_api.o --omf_browse .\output\mlx90640_api.crf --depend .\output\mlx90640_api.d)
+I (.\HARDWARE\MLX90640\headers\MLX90640_I2C_Driver.h)(0x6544AE40)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\config.h)(0x6545FAE3)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USER\systick.h)(0x6197C21A)
+I (.\HARDWARE\GPIO.h)(0x6545FC2B)
+I (.\HARDWARE\TIM.h)(0x6544B215)
+I (.\HARDWARE\gd32f103c_lcd_eval.h)(0x6545FBA4)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\HARDWARE\MLX90640\headers\MLX90640_API.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640.h)(0x6545F555)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (.\USB\msc_core.h)(0x6197C21A)
+I (.\HARDWARE\ADCKey.h)(0x6545FB25)
+I (.\HARDWARE\XT25F128.h)(0x6545FB25)
+I (D:\Tool\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FATFS\diskio.h)(0x6197C21A)
+I (.\FATFS\integer.h)(0x6197C21A)
+I (.\FATFS\ff.h)(0x6197C21A)
+I (.\FATFS\ffconf.h)(0x6197C21A)
+I (.\HARDWARE\bmp.h)(0x6545C318)
+I (D:\Tool\Keil5\ARM\ARMCC\include\math.h)(0x588B8344)
+F (.\HARDWARE\MLX90640\functions\MLX90640_SWI2C_Driver.c)(0x6545FCD4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\mlx90640_swi2c_driver.o --omf_browse .\output\mlx90640_swi2c_driver.crf --depend .\output\mlx90640_swi2c_driver.d)
+I (.\HARDWARE\MLX90640\headers\MLX90640_I2C_Driver.h)(0x6544AE40)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\USER\config.h)(0x6545FAE3)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USER\systick.h)(0x6197C21A)
+I (.\HARDWARE\GPIO.h)(0x6545FC2B)
+I (.\HARDWARE\TIM.h)(0x6544B215)
+I (.\HARDWARE\gd32f103c_lcd_eval.h)(0x6545FBA4)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\HARDWARE\MLX90640\headers\MLX90640_API.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640.h)(0x6545F555)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (.\USB\msc_core.h)(0x6197C21A)
+I (.\HARDWARE\ADCKey.h)(0x6545FB25)
+I (.\HARDWARE\XT25F128.h)(0x6545FB25)
+I (D:\Tool\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FATFS\diskio.h)(0x6197C21A)
+I (.\FATFS\integer.h)(0x6197C21A)
+I (.\FATFS\ff.h)(0x6197C21A)
+I (.\FATFS\ffconf.h)(0x6197C21A)
+I (.\HARDWARE\bmp.h)(0x6545C318)
+F (.\HARDWARE\bmp.c)(0x6545C637)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\bmp.o --omf_browse .\output\bmp.crf --depend .\output\bmp.d)
+I (HARDWARE\bmp.h)(0x6545C318)
+I (.\USER\config.h)(0x6545FAE3)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USER\systick.h)(0x6197C21A)
+I (.\HARDWARE\GPIO.h)(0x6545FC2B)
+I (.\HARDWARE\TIM.h)(0x6544B215)
+I (.\HARDWARE\gd32f103c_lcd_eval.h)(0x6545FBA4)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\HARDWARE\MLX90640\headers\MLX90640_API.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640_I2C_Driver.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640.h)(0x6545F555)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (.\USB\msc_core.h)(0x6197C21A)
+I (.\HARDWARE\ADCKey.h)(0x6545FB25)
+I (.\HARDWARE\XT25F128.h)(0x6545FB25)
+I (D:\Tool\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FATFS\diskio.h)(0x6197C21A)
+I (.\FATFS\integer.h)(0x6197C21A)
+I (.\FATFS\ff.h)(0x6197C21A)
+I (.\FATFS\ffconf.h)(0x6197C21A)
+I (.\HARDWARE\bmp.h)(0x6545C318)
+F (.\HARDWARE\GPIO.c)(0x6545D48B)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gpio.o --omf_browse .\output\gpio.crf --depend .\output\gpio.d)
+I (HARDWARE\GPIO.h)(0x6545FC2B)
+I (.\USER\config.h)(0x6545FAE3)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USER\systick.h)(0x6197C21A)
+I (.\HARDWARE\GPIO.h)(0x6545FC2B)
+I (.\HARDWARE\TIM.h)(0x6544B215)
+I (.\HARDWARE\gd32f103c_lcd_eval.h)(0x6545FBA4)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\HARDWARE\MLX90640\headers\MLX90640_API.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640_I2C_Driver.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640.h)(0x6545F555)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (.\USB\msc_core.h)(0x6197C21A)
+I (.\HARDWARE\ADCKey.h)(0x6545FB25)
+I (.\HARDWARE\XT25F128.h)(0x6545FB25)
+I (D:\Tool\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FATFS\diskio.h)(0x6197C21A)
+I (.\FATFS\integer.h)(0x6197C21A)
+I (.\FATFS\ff.h)(0x6197C21A)
+I (.\FATFS\ffconf.h)(0x6197C21A)
+I (.\HARDWARE\bmp.h)(0x6545C318)
+F (.\HARDWARE\TIM.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\tim.o --omf_browse .\output\tim.crf --depend .\output\tim.d)
+I (HARDWARE\TIM.h)(0x6544B215)
+I (.\USER\config.h)(0x6545FAE3)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USER\systick.h)(0x6197C21A)
+I (.\HARDWARE\GPIO.h)(0x6545FC2B)
+I (.\HARDWARE\TIM.h)(0x6544B215)
+I (.\HARDWARE\gd32f103c_lcd_eval.h)(0x6545FBA4)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\HARDWARE\MLX90640\headers\MLX90640_API.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640_I2C_Driver.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640.h)(0x6545F555)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (.\USB\msc_core.h)(0x6197C21A)
+I (.\HARDWARE\ADCKey.h)(0x6545FB25)
+I (.\HARDWARE\XT25F128.h)(0x6545FB25)
+I (D:\Tool\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FATFS\diskio.h)(0x6197C21A)
+I (.\FATFS\integer.h)(0x6197C21A)
+I (.\FATFS\ff.h)(0x6197C21A)
+I (.\FATFS\ffconf.h)(0x6197C21A)
+I (.\HARDWARE\bmp.h)(0x6545C318)
+F (.\HARDWARE\gd32f103c_lcd_eval.c)(0x6545FBA4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\gd32f103c_lcd_eval.o --omf_browse .\output\gd32f103c_lcd_eval.crf --depend .\output\gd32f103c_lcd_eval.d)
+I (.\USER\config.h)(0x6545FAE3)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USER\systick.h)(0x6197C21A)
+I (.\HARDWARE\GPIO.h)(0x6545FC2B)
+I (.\HARDWARE\TIM.h)(0x6544B215)
+I (.\HARDWARE\gd32f103c_lcd_eval.h)(0x6545FBA4)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\HARDWARE\MLX90640\headers\MLX90640_API.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640_I2C_Driver.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640.h)(0x6545F555)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (.\USB\msc_core.h)(0x6197C21A)
+I (.\HARDWARE\ADCKey.h)(0x6545FB25)
+I (.\HARDWARE\XT25F128.h)(0x6545FB25)
+I (D:\Tool\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FATFS\diskio.h)(0x6197C21A)
+I (.\FATFS\integer.h)(0x6197C21A)
+I (.\FATFS\ff.h)(0x6197C21A)
+I (.\FATFS\ffconf.h)(0x6197C21A)
+I (.\HARDWARE\bmp.h)(0x6545C318)
+I (.\HARDWARE\MLX90640\headers\16x8.h)(0x6197C21A)
+F (.\USB\bbb_scsi_driver.c)(0x6545D48B)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\bbb_scsi_driver.o --omf_browse .\output\bbb_scsi_driver.crf --depend .\output\bbb_scsi_driver.d)
+I (USB\bbb_scsi_driver.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (USB\flash_access.h)(0x6197C21A)
+I (.\USER\config.h)(0x6545FAE3)
+I (.\USER\systick.h)(0x6197C21A)
+I (.\HARDWARE\GPIO.h)(0x6545FC2B)
+I (.\HARDWARE\TIM.h)(0x6544B215)
+I (.\HARDWARE\gd32f103c_lcd_eval.h)(0x6545FBA4)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\HARDWARE\MLX90640\headers\MLX90640_API.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640_I2C_Driver.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640.h)(0x6545F555)
+I (.\USB\msc_core.h)(0x6197C21A)
+I (.\HARDWARE\ADCKey.h)(0x6545FB25)
+I (.\HARDWARE\XT25F128.h)(0x6545FB25)
+I (D:\Tool\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FATFS\diskio.h)(0x6197C21A)
+I (.\FATFS\integer.h)(0x6197C21A)
+I (.\FATFS\ff.h)(0x6197C21A)
+I (.\FATFS\ffconf.h)(0x6197C21A)
+I (.\HARDWARE\bmp.h)(0x6545C318)
+F (.\USB\flash_access.c)(0x6545D48B)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\flash_access.o --omf_browse .\output\flash_access.crf --depend .\output\flash_access.d)
+I (USB\usbd_conf.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (USB\flash_access.h)(0x6197C21A)
+I (.\HARDWARE\XT25F128.h)(0x6545FB25)
+I (.\USER\CONFIG.h)(0x6545FAE3)
+I (.\USER\systick.h)(0x6197C21A)
+I (.\HARDWARE\GPIO.h)(0x6545FC2B)
+I (.\HARDWARE\TIM.h)(0x6544B215)
+I (.\HARDWARE\gd32f103c_lcd_eval.h)(0x6545FBA4)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\HARDWARE\MLX90640\headers\MLX90640_API.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640_I2C_Driver.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640.h)(0x6545F555)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (.\USB\msc_core.h)(0x6197C21A)
+I (.\HARDWARE\ADCKey.h)(0x6545FB25)
+I (D:\Tool\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FATFS\diskio.h)(0x6197C21A)
+I (.\FATFS\integer.h)(0x6197C21A)
+I (.\FATFS\ff.h)(0x6197C21A)
+I (.\FATFS\ffconf.h)(0x6197C21A)
+I (.\HARDWARE\bmp.h)(0x6545C318)
+F (.\USB\msc_core.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\msc_core.o --omf_browse .\output\msc_core.crf --depend .\output\msc_core.d)
+I (USB\msc_core.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (USB\bbb_scsi_driver.h)(0x6197C21A)
+I (USB\flash_access.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_int.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_pwr.h)(0x6197C21A)
+F (.\USB\GD32F10x_usbd_driver\Source\usbd_core.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\usbd_core.o --omf_browse .\output\usbd_core.crf --depend .\output\usbd_core.d)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+F (.\USB\GD32F10x_usbd_driver\Source\usbd_int.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\usbd_int.o --omf_browse .\output\usbd_int.crf --depend .\output\usbd_int.d)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_int.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_pwr.h)(0x6197C21A)
+F (.\USB\GD32F10x_usbd_driver\Source\usbd_pwr.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\usbd_pwr.o --omf_browse .\output\usbd_pwr.crf --depend .\output\usbd_pwr.d)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_pwr.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+F (.\USB\GD32F10x_usbd_driver\Source\usbd_std.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\usbd_std.o --omf_browse .\output\usbd_std.crf --depend .\output\usbd_std.d)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+F (.\FATFS\diskio.c)(0x6545FBC3)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\diskio.o --omf_browse .\output\diskio.crf --depend .\output\diskio.d)
+I (FATFS\diskio.h)(0x6197C21A)
+I (FATFS\integer.h)(0x6197C21A)
+I (.\HARDWARE\XT25F128.h)(0x6545FB25)
+I (.\USER\CONFIG.h)(0x6545FAE3)
+I (.\Libraries\CMSIS\gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cm3.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (.\Libraries\CMSIS\core_cmInstr.h)(0x6197C21A)
+I (.\Libraries\CMSIS\core_cmFunc.h)(0x6197C21A)
+I (.\Libraries\CMSIS\system_gd32f10x.h)(0x6197C21A)
+I (.\Libraries\CMSIS\gd32f10x_libopt.h)(0x63B6341C)
+I (.\Libraries\FWLIB\Include\gd32f10x_fmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_pmu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_bkp.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rcu.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exti.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_gpio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_crc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dma.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dbg.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_adc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_dac.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_fwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_wwdgt.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_rtc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_timer.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_usart.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_i2c.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_spi.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_sdio.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_exmc.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_can.h)(0x6197C21A)
+I (.\Libraries\FWLIB\Include\gd32f10x_enet.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (.\Libraries\FWLIB\Include\gd32f10x_misc.h)(0x6197C21A)
+I (.\USER\systick.h)(0x6197C21A)
+I (.\HARDWARE\GPIO.h)(0x6545FC2B)
+I (.\HARDWARE\TIM.h)(0x6544B215)
+I (.\HARDWARE\gd32f103c_lcd_eval.h)(0x6545FBA4)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (.\HARDWARE\MLX90640\headers\MLX90640_API.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640_I2C_Driver.h)(0x6544AE40)
+I (.\HARDWARE\MLX90640\headers\MLX90640.h)(0x6545F555)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_std.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_core.h)(0x6197C21A)
+I (.\USB\usbd_conf.h)(0x6197C21A)
+I (.\USB\GD32F10x_usbd_driver\Include\usbd_regs.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\wchar.h)(0x588B8344)
+I (.\USB\msc_core.h)(0x6197C21A)
+I (.\HARDWARE\ADCKey.h)(0x6545FB25)
+I (D:\Tool\Keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (.\FATFS\ff.h)(0x6197C21A)
+I (.\FATFS\ffconf.h)(0x6197C21A)
+I (.\HARDWARE\bmp.h)(0x6545C318)
+F (.\FATFS\ff.c)(0x6197C21A)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I .\Libraries\FWLIB\Include -I .\Libraries\CMSIS -I .\USER -I .\Project\RTE -I .\HARDWARE -I .\HARDWARE\MLX90640\headers -I .\FATFS -I .\USB -I .\USB\GD32F10x_usbd_driver\Include-I.\RTE\_Target_1-ID:\Tool\Keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.0.2\Device\Include-ID:\Tool\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o .\output\ff.o --omf_browse .\output\ff.crf --depend .\output\ff.d)
+I (FATFS\ff.h)(0x6197C21A)
+I (FATFS\integer.h)(0x6197C21A)
+I (FATFS\ffconf.h)(0x6197C21A)
+I (FATFS\diskio.h)(0x6197C21A)
+I (D:\Tool\Keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)

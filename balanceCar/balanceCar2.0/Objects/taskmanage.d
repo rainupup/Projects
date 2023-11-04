@@ -1,0 +1,15 @@
+.\objects\taskmanage.o: Application\TaskManage.c
+.\objects\taskmanage.o: .\FreeRTOS\include\FreeRTOS.h
+.\objects\taskmanage.o: D:\Tool\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+.\objects\taskmanage.o: D:\Tool\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\taskmanage.o: .\User\FreeRTOSConfig.h
+.\objects\taskmanage.o: .\FreeRTOS\include\projdefs.h
+.\objects\taskmanage.o: .\FreeRTOS\include\portable.h
+.\objects\taskmanage.o: .\FreeRTOS\include\deprecated_definitions.h
+.\objects\taskmanage.o: .\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h
+.\objects\taskmanage.o: .\FreeRTOS\include\mpu_wrappers.h
+.\objects\taskmanage.o: .\FreeRTOS\include\task.h
+.\objects\taskmanage.o: .\FreeRTOS\include\list.h
+.\objects\taskmanage.o: .\FreeRTOS\include\queue.h
+.\objects\taskmanage.o: .\Hardware\OLED.h
+.\objects\taskmanage.o: .\Hardware\mpu6050.h
